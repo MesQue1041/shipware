@@ -1,0 +1,6 @@
+[server]
+# Reject large files before they reach the validation function.
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false

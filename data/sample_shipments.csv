@@ -1,0 +1,10 @@
+shipment_id,carrier,tracking_number,expected_delivery_date,status,last_update_at
+SHP-001,Demo Parcel,000123,2026-10-28,in_transit,2026-10-29T10:00:00Z
+SHP-002,Example Freight,,2026-10-30,in_transit,2026-10-29T11:00:00Z
+SHP-003,Demo Parcel,DEMO003,2026-10-30,in_transit,2026-10-28T11:59:59Z
+SHP-004,Example Freight,,2026-10-27,in_transit,2026-10-27T09:00:00Z
+SHP-005,Demo Parcel,DEMO005,2026-10-29,in_transit,2026-10-28T12:00:00Z
+SHP-006,Example Freight,DEMO006,2026-10-27,delivered,2026-10-27T15:00:00Z
+SHP-007,Demo Parcel,,2026-10-26,cancelled,2026-10-25T08:00:00Z
+SHP-008,Example Freight,,2026-10-30,pending,2026-10-29T08:00:00Z
+SHP-009,Demo Parcel,DEMO009,2026-10-30, In_Transit ,2026-10-29T17:00:00+05:30

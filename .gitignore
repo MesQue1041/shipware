@@ -1,0 +1,34 @@
+# Local environments, credentials, and editor settings.
+.venv*/
+.python/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+
+# Generated Python files and test caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data and generated indexes must not be committed.
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+chroma/
+.chroma/
+indexes/
+.cache/
+*.log
+
+# Local-only docs and scratch files
+AGENTS.md
+PROJECT_PLAN.md
+README.md
+cdew.txt
